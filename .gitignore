@@ -1,3 +1,6 @@
 # Terraform files
 *.tfstate*
 .terraform/
+
+# Deployment package archive
+hello.zip

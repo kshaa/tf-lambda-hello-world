@@ -9,7 +9,7 @@ def main():
         hello = os.environ[hello_key]
         print(hello)
     except KeyError:
-        print("Missing \'foo\' environment variable")
+        print("Missing \'{}\' environment variable".format(hello_key))
 
 # Entrypoints
 ## Lambda invocation
