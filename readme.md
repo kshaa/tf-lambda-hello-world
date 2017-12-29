@@ -45,3 +45,8 @@ aws lambda invoke \
     --region eu-west-2 \
     --log-type Tail
 ~~~~
+
+Log result will be encoded in base64, see [documentation][3] for how to decode it. Or check the result in [CloudWatch console][4] logs.
+
+[3]: http://docs.aws.amazon.com/lambda/latest/dg/with-userapp-walkthrough-custom-events-invoke.html "Lambda invocation documentation"
+[4]: https://console.aws.amazon.com/cloudwatch/ "Cloudwatch console"
